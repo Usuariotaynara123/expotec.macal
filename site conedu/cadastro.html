@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Site Expotec</title>
+</head>
+<body>
+
+    <header style="background-image: url('https://img.freepik.com/fotos-gratis/textura-de-parede-de-estuque-azul-marinho-de-relevo-decorativo-grunge-abstrato-fundo-colorido-aspero-de-angulo-amplo_1258-28311.jpg')">
+        <div class="container">
+            <nav>
+                <a href="index.macal.html">
+                    <img src= "img/logo.png" alt="Logo"> <!---colocar imagem(LOGO) que n da crt-->
+                </a>
+                <ul class="ul">
+                    <a href="index.macal.html">Home</a>
+                    <a href="agenda.html">Agenda</a>
+                    <a class="btn" href="cadastro.html">Cadastro</a>
+    
+                </ul>
+            </nav>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="processar_login.php" method="post">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
